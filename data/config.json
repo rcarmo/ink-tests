@@ -13,9 +13,7 @@
         "iPad Portrait",
         "iPad Landscape",
         "1280x1024",
-        "1366x768",
-        "720p",
-        "1080p"
+        "1366x768"
     ],
     "resolutions": {
         "iPhone Portrait": {
