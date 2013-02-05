@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>My InK Page</title>
+        <meta name="description" content="">
+		<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
+		<meta name="HandheldFriendly" content="True">
+		<meta name="MobileOptimized" content="320">
+	
+		<!-- Favicon.ico placeholder -->
+		<link rel="shortcut icon" href="imgs/ink-favicon.ico">
+		
+		<!-- Apple icon placeholder -->
+		<link rel="apple-touch-icon-precomposed" href="imgs/touch-icon.57.png">
+		<link rel="apple-touch-icon-precomposed" sizes="72x72" href="imgs/touch-icon.72.png">
+		<link rel="apple-touch-icon-precomposed" sizes="114x114" href="imgs/touch-icon.114.png">
+
+		<!-- Apple splash screen placeholder -->
+		<link rel="apple-touch-startup-image" href="imgs/splash.320x460.png" media="screen and (min-device-width: 200px) and (max-device-width: 320px) and (orientation:portrait)">
+		<link rel="apple-touch-startup-image" href="imgs/splash.768x1004.png" media="screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait)">
+		<link rel="apple-touch-startup-image" href="imgs/splash.1024x748.png" media="screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape)">
+
+		<!-- Stylesheets -->
+		<link rel="stylesheet" href="./css/ink.css">
+
+        <style>
+            /* Sane sizing */
+            * { -webkit-box-sizing: border-box; }
+            /* Override part of footer styling to make sure it sticks to the bottom */
+            footer { position: absolute !important; width: 100% !important;  bottom: 0; }
+            /* Override padding so that mobile views won't be offset to the side */
+            .ink-row { margin: 0 !important; }
+            /* Experimental color tweaks */
+            footer { background-color: #344; color: white; }
+            footer a { color: white; }
+        </style>
+		
+		<!--[if IE]>
+			<link rel="stylesheet" href="./css/ink-ie.css" type="text/css" media="screen" title="no title" charset="utf-8">
+		<![endif]-->
+	</head>
+	<body>
+   		
+		<header class="ink-container">
+			<div class="ink-vspace">
+				<h1 class="ink-for-l ink-for-m">Login</h1>
+				<h3 class="ink-for-s">Login</h4>
+			</div>
+		</header>
+
+		<div class="main-container ink-container ink-vspace">
+			<div class="ink-vspace">
+				<div class="ink-row">
+					<div class="ink-l10 ink-m20 ink-s10">
+						<p>&nbsp;</p>
+					</div>
+					<div class="ink-l40 ink-m30 ink-s80">
+						<div class="ink-gutter">
+							<form id="login" class="ink-form block" method="post" action="#" onsubmit="return SAPO.Ink.FormValidator.validate(this);">
+							    <fieldset>
+							        <div class="control required">
+							            <label for="name">Username</label>
+							            <input type="text" name="name" id="name"/>
+							        </div>
+									<div class="control required">
+							            <label for="pass">Password: </label>
+							            <input type="password" name="pass" id="password"/>
+							        </div>
+							        <div class="control">
+							        	<input type="submit" name="sub" value="Login" class="ink-button success" />
+							        </div>
+							    </fieldset>
+							</form>
+						</div>
+					</div>
+                    <div class="ink-m10 ink-l10 ink-for-m ink-for-l">
+                        <p>&nbsp;</p>
+                    </div>
+					<div class="ink-l30 ink-m33 ink-s100 ink-alert info">
+							<p>This is where we explain at length what you'll find inside so that you're happy to log in and join us.</p>
+                            <p style="padding-top: 1em; text-align: right;"><em>&mdash; The Management</em></p>
+					</div>
+				</div>
+			</div>			
+		</div>
+
+		<footer class="ink-for-m ink-for-l">
+			<div class="ink-container">
+				<nav class="ink-navigation">
+					<ul class="ink-footer-nav" style="float: right;">
+						<li><a href="#">Footer item 1</a></li>
+						<li><a href="#">Footer item 2</a></li>
+						<li><a href="#">Footer item 3</a></li>
+					</ul>
+				</nav>
+				<p class="copyright" style="float: right;">
+					Powered by <a href="http://ink.sapo.pt">InK</a>
+				</p>
+			</div>
+		</footer>
+		<script type="text/javascript" src="js/Ink-v1.js"></script>
+	</body>
+</html>

@@ -1,0 +1,82 @@
+{
+    "pages": [
+        {
+            "name": "login.html",
+            "description": "A responsive login form with a slightly tweaked footer."
+        }
+    ],
+    "render": [
+        "iPhone Portrait",
+        "iPhone Landscape",
+        "iPhone 5 Portrait",
+        "iPhone 5 Landscape",
+        "iPad Portrait",
+        "iPad Landscape",
+        "1280x1024",
+        "1366x768",
+        "720p",
+        "1080p"
+    ],
+    "resolutions": {
+        "iPhone Portrait": {
+            "width": 320,
+            "height": 480,
+            "density": 2
+        },
+        "iPhone Landscape": {
+            "width": 480,
+            "height": 320,
+            "density": 2
+        },
+        "iPhone 5 Portrait": {
+            "width": 320,
+            "height": 568,
+            "density": 2
+        },
+        "iPhone 5 Landscape": {
+            "width": 568, 
+            "height": 320,
+            "density": 2
+        },
+        "iPad Portrait": {
+            "width": 768,
+            "height": 1024,
+            "density": 2
+        },
+        "iPad Landscape": {
+            "width": 1024,
+            "height": 768,
+            "density": 2
+        },
+        "1024x768": {
+            "width": 1024,
+            "height": 768,
+            "density": 1
+        },
+        "1280x1024": {
+            "width": 1280,
+            "height": 1024,
+            "density": 1
+        },
+        "1366x768": {
+            "width": 1366,
+            "height": 768,
+            "density": 1
+        },
+        "720p": {
+            "width": 1280,
+            "height": 720,
+            "density": 1 
+        },
+        "720p": {
+            "width": 1280,
+            "height": 720,
+            "density": 1
+        },
+        "1080p": {
+            "width": 1920,
+            "height": 1080,
+            "density": 1
+        }
+    }
+}
