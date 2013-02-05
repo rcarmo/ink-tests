@@ -303,7 +303,9 @@ Examples:
       options.clipped = True
     # work out the initial size of the browser window
     #  (this might need to be larger so clipped image is right size)
-    """options.initWidth = (options.clipwidth / options.scale)
+    """
+    - Removed these to make it easier to generate mobile-like images
+    options.initWidth = (options.clipwidth / options.scale)
     options.initHeight = (options.clipheight / options.scale)
     options.width *= options.zoom
     if options.width>options.initWidth:
@@ -314,8 +316,6 @@ Examples:
     options.initWidth = options.clipwidth = options.width
     options.initHeight = options.clipheight = options.height
 
-    print options
-      
     app = AppKit.NSApplication.sharedApplication()
     
     # create an app delegate
