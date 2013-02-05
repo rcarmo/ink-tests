@@ -313,7 +313,6 @@ Examples:
     """
     options.initWidth = options.clipwidth = options.width
     options.initHeight = options.clipheight = options.height
-    options.clipped = True
 
     print options
       
